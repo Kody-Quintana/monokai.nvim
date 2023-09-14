@@ -24,7 +24,8 @@ M.classic = {
   yellow = '#e6db74',
   orange = '#fd971f',
   purple = '#ae81ff',
-  red = '#e95678',
+  --red = '#e95678',
+  red = '#f92672',
   diff_add = '#3d5213',
   diff_remove = '#4a0f23',
   diff_change = '#27406b',
@@ -498,7 +499,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.purple,
     },
     ["@constructor"] = {
-      fg = palette.aqua,
+      fg = palette.orange,
     },
     ["@debug"] = {
       fg = palette.pink,
@@ -552,7 +553,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@field"] = {
-      fg = palette.white,
+      fg = palette.aqua,
     },
     ["@float"] = {
       fg = palette.purple,
@@ -572,7 +573,7 @@ M.load_plugin_syntax = function(palette)
       style = 'italic',
     },
     ["@include"] = {
-      fg = palette.aqua,
+      fg = palette.red,
       style = 'italic',
     },
     ["@keyword"] = {
@@ -580,7 +581,7 @@ M.load_plugin_syntax = function(palette)
       style = 'italic',
     },
     ["@keyword.function"] = {
-      fg = palette.aqua,
+      fg = palette.red,
       style = 'italic',
     },
     ["@keyword.operator"] = {
@@ -597,7 +598,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.green,
     },
     ["@method.call"] = {
-      fg = palette.white,
+      fg = palette.green,
     },
     ["@namespace"] = {
       fg = palette.purple,
@@ -616,7 +617,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.white,
     },
     ["@preproc"] = {
-      fg = palette.green,
+      fg = palette.red,
     },
     ["@property"] = {
       fg = palette.white,
@@ -740,10 +741,10 @@ M.load_plugin_syntax = function(palette)
     },
     ["@uri"] = uri_group,
     ["@variable"] = {
-      fg = palette.blue,
+      fg = palette.aqua,
     },
     ["@variable.builtin"] = {
-      fg = palette.orange,
+      fg = palette.aqua,
     },
     dbui_tables = {
       fg = palette.white,
