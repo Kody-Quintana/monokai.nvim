@@ -6,11 +6,11 @@ M.classic = {
   name = 'monokai',
   base0 = '#222426',
   base1 = '#272a30',
-  base2 = '#26292C',
+  base2 = '#272822',
   base3 = '#2E323C',
   base4 = '#333842',
   base5 = '#4d5154',
-  base6 = '#9ca0a4',
+  base6 = '#75715e',
   base7 = '#b1b1b1',
   base8 = '#e3e3e1',
   border = '#a1b5b1',
@@ -565,7 +565,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.aqua,
     },
     ["@function.call"] = {
-      fg = palette.white,
+      fg = palette.green,
     },
     ["@function.macro"] = {
       fg = palette.green,
@@ -610,7 +610,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@parameter"] = {
-      fg = palette.orange,
+      fg = palette.blue,
     },
     ["@parameter.reference"] = {
       fg = palette.white,
@@ -628,7 +628,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.white,
     },
     ["@punctuation.special"] = {
-      fg = palette.pink,
+      fg = palette.white,
     },
     ["@reference"] = {
       fg = palette.white,
@@ -705,7 +705,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.grey,
     },
     ["@text.reference"] = {
-      fg = palette.orange,
+      fg = palette.aqua,
       style = 'italic',
     },
     ["@text.strike"] = strike_group,
@@ -740,7 +740,7 @@ M.load_plugin_syntax = function(palette)
     },
     ["@uri"] = uri_group,
     ["@variable"] = {
-      fg = palette.white,
+      fg = palette.blue,
     },
     ["@variable.builtin"] = {
       fg = palette.orange,
