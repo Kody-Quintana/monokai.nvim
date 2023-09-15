@@ -24,8 +24,8 @@ M.classic = {
   yellow = '#e6db74',
   orange = '#fd971f',
   purple = '#ae81ff',
-  --red = '#e95678',
-  red = '#f92672',
+  red = '#e95678',
+  --red = '#f92672',
   diff_add = '#3d5213',
   diff_remove = '#4a0f23',
   diff_change = '#27406b',
@@ -581,7 +581,7 @@ M.load_plugin_syntax = function(palette)
       style = 'italic',
     },
     ["@keyword.function"] = {
-      fg = palette.red,
+      fg = palette.pink,
       style = 'italic',
     },
     ["@keyword.operator"] = {
@@ -617,7 +617,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.white,
     },
     ["@preproc"] = {
-      fg = palette.red,
+      fg = palette.pink,
     },
     ["@property"] = {
       fg = palette.white,
