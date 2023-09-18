@@ -1,7 +1,7 @@
+highlight clear
 lua require('monokai').setup()
 
 set background=dark
-"highlight clear
 
 if exists("syntax_on")
   syntax reset
@@ -31,8 +31,8 @@ hi SignColumn ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3c3d37 gui=N
 hi TabIndentations ctermfg=NONE ctermbg=197 cterm=NONE guifg=#232420 guibg=#232420 gui=NONE
 
 "Opaque background
-hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
-hi NonText ctermfg=59 ctermbg=236 cterm=NONE guifg=#49483e guibg=#232420 gui=NONE
+"hi Normal ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
+"hi NonText ctermfg=59 ctermbg=236 cterm=NONE guifg=#49483e guibg=#232420 gui=NONE
 
 "hi TagbarSignature ctermfg=231 ctermbg=235 cterm=NONE guifg=#f8f8f2 guibg=#272822 gui=NONE
 

@@ -417,7 +417,7 @@ M.load_syntax = function(palette)
       bg = palette.base3,
     },
     Whitespace = { -- used for "nbsp", "space", "tab" and "trail" in listchars
-      fg = palette.base5,
+      fg = '#49483e',
     },
     WildMenu = {
       fg = palette.white,
@@ -454,7 +454,7 @@ M.load_plugin_syntax = function(palette)
     fg = palette.grey,
   }
   local todo_group = {
-    fg = palette.aqua,
+    fg = palette.red,
   }
   local uri_group = {
     fg = palette.aqua,
