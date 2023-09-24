@@ -611,7 +611,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@parameter"] = {
-      fg = palette.blue,
+      fg = palette.aqua,
     },
     ["@parameter.reference"] = {
       fg = palette.white,
