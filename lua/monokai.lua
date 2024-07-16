@@ -620,7 +620,7 @@ M.load_plugin_syntax = function(palette)
       fg = palette.pink,
     },
     ["@property"] = {
-      fg = palette.white,
+      fg = palette.aqua,
     },
     ["@punctuation.bracket"] = {
       fg = palette.white,
